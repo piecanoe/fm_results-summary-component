@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&family=Mulish:ital,wght@0,200;0,800;1,500;1,800;1,900&display=swap" rel="stylesheet">
@@ -21,7 +21,7 @@
 <body>
   <div class="box">
     
-    <section id="results">
+    <section class="panel" id="results">
       <h1>Your Result</h1>
       <div id="circle">
         <h2>76</h2>
@@ -31,21 +31,21 @@
       <p>You scored higher than 65% of the people who have taken these tests.</p>
     </section>
     
-    <section id="summary">
+    <section class="panel" id="summary">
       <h1>Summary</h1>
-      <div class="category">
+      <div class="category" id="reaction">
         <h3>Reaction</h3>
         <p><span>80</span> / 100</p>
       </div>
-      <div class="category">
-        <h3>Memory</h3>
+      <div class="category" id="memory">
+        <h3 id="memory">Memory</h3>
         <p><span>92</span> / 100</p>
       </div>
-      <div class="category">
+      <div class="category" id="verbal">
         <h3>Verbal</h3>
         <p><span>61</span> / 100</p>
       </div>
-      <div class="category">
+      <div class="category" id="visual">
         <h3>Visual</h3>
         <p><span>72</span> / 100</p>
       </div>
