@@ -9,6 +9,7 @@ html{
     width: 500px;
     height: 350px;
     background-color: green;
+    border-radius: .5rem;
 }
 
 .panel{
@@ -21,29 +22,54 @@ html{
     flex-direction: column;
     background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     color: hsl(0, 0%, 100%);
+    border-radius: .5rem;
 }
 
-#results > h1{
-    font-size: .7rem;
+.panel > h1{
+    font-size: .9rem;
 }
+
 #circle{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background: hsla(256, 72%, 46%, 1);
+    border-radius: 50%;
+}
+
+#circle > h2{
+    font-size: 70px;
 }
 
 /** Right Panel **/
 #summary{
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     font-family: .7rem;
     background: white;
     color: hsl(224, 30%, 27%);
+    margin: 0 30px 0 30px;
 }
 
 .category{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-radius: .5rem;
     font-size: .7rem;
+    height: 45px;
+}
+
+#summary > .category > h3{
+    margin-left: 10px;
+}
+
+#summary > .category > p{
+    margin-right: 10px;
 }
 
 #summary > #reaction{
@@ -78,7 +104,14 @@ html{
     color: hsl(234, 85%, 45%);
 }
 
+span{
+    font-weight: bold;
+}
 button{
     background: hsl(224, 30%, 27%);
     color: white;
+    height: 45px;
+    width: 100%;
+    margin: 20px 0 20px 0;
+    font-weight: bold;
 }
