@@ -6,44 +6,112 @@ html{
 .box{
     display: flex;
     flex-direction: row;
-    width: 500px;
+    width: 550px;
     height: 350px;
-    background-color: green;
+    background-color: white;
+    border-radius: .5rem;
 }
 
-.panel{
-    width: 250px;
-    height: 350px;
-}
 /** Left Panel **/
 #results {
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 250px;
+    height: 350px;
+    color: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: column;
-    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-    color: hsl(0, 0%, 100%);
+    font-family: .7rem;
 }
 
 #results > h1{
     font-size: .7rem;
 }
 #circle{
+    width: 120px;
+    height: 120px;
     background: hsla(256, 72%, 46%, 1);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#circle > h2{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    background-color: green;
+}
+
+#circle > p{
+    font-size: .8rem;
+    text-align: center;
+    background-color: red;
+}
+
+#statement{
+    font-size: .7rem;
+    text-align: center;
+    margin: 0 35px 0 35px;
 }
 
 /** Right Panel **/
 #summary{
-    display: flex;
-    flex-direction: column;
-    font-family: .7rem;
     background: white;
     color: hsl(224, 30%, 27%);
+    margin: 0 30px 0 30px;
 }
 
 .category{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     font-size: .7rem;
+    height: 45px;
+}
+
+#summary > .category > h3{
+    margin-left: 10px;
+}
+
+#summary > .category > p{
+    margin-right: 10px;
+}
+
+#summary > #reaction{
+    background: hsla(0, 100%, 67%, 0.188);
+}
+
+#summary > #reaction > h3{
+    color: hsla(0, 100%, 67%);
+}
+
+#summary > #memory{
+    background: hsl(39, 100%, 56%, 0.188);
+}
+
+#summary > #memory > h3{
+    color: hsl(39, 100%, 56%);
+}
+
+#summary > #verbal{
+    background: hsl(166, 100%, 37%, 0.188);
+}
+
+#summary > #verbal > h3{
+    color: hsl(166, 100%, 37%);
+}
+
+#summary > #visual{
+    background: hsl(234, 85%, 45%, 0.188);
+}
+
+#summary > #visual > h3{
+    color: hsl(234, 85%, 45%);
+}
+
+span{
+    font-weight: bold;
 }
 
 #summary > #reaction{
@@ -81,4 +149,9 @@ html{
 button{
     background: hsl(224, 30%, 27%);
     color: white;
+    height: 45px;
+    width: 100%;
+    border-radius: .5rem;
+    margin: 20px 0 20px 0;
+    font-weight: bold;
 }
