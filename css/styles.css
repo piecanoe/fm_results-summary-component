@@ -1,18 +1,20 @@
 body{
+    min-height: 100vh;
     font-size: 13px;
     font-weight: 500;
     font-family: "Hanken Grotesk", Arial, Helvetica;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-top: 20%;
+    margin: auto;
 }
 
 body #box{
     display: flex;
     justify-content: space-between;
-    width: 525px;
+    width: 500px;
     height: 350px;
     background: white;
     border-radius: 2rem;
@@ -150,4 +152,15 @@ button{
 
 .attribution{
     margin-top: 50px;
+}
+
+@media (max-width: 412px){
+    body #box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: auto;
+        filter: none;
+    }
 }
