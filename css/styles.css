@@ -148,6 +148,8 @@ button{
     font-size: .8rem;
     font-weight: 400;
     margin-left: 20px;
+    box-shadow: none;
+    border: none;
 }
 
 .attribution{
@@ -160,7 +162,6 @@ button{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: auto;
         filter: none;
     }
 }
