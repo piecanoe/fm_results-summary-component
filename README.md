@@ -18,14 +18,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ## Overview
 
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
-- **Bonus**: Use the local JSON data to dynamically populate the content
-
 ### Screenshot
 
 ![](./solution/screenshot.jpg)
@@ -51,8 +43,6 @@ Users should be able to:
 ### What I learned
 
 In this exercise, I learned how to make a website responsive using media-queries at the bottom of my CSS file:
-
-To see how you can add code snippets, see below:
 
 ```css
 @media (max-width: 412px){

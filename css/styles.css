@@ -152,6 +152,11 @@ button{
     border: none;
 }
 
+button:hover{
+    background: rgb(80, 23, 237);
+    cursor: pointer;
+}
+
 .attribution{
     margin-top: 50px;
 }
