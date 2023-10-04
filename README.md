@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/piecanoe/fm_results-summary-component.git)
-- Live Site URL: (fm-results-kd.netlify.app)
+- Live Site URL: (https://fm-results-kd.netlify.app)
 
 ## My process
 
